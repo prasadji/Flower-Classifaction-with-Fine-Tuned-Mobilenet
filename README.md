@@ -14,7 +14,7 @@ lets rearrange the datasets as mentioned below.
 	* Validation
 	* Test
 
-For experiment purpose lets Train the model with 5X100 flowers.
+For experiment purpose lets Train the model with 5X500 flowers.
 
 ## [Dataset preprocessing before traing]
 For image augmentation used ImageDataGenerator class from keras (from tensorflow.keras.preprocessing.image import ImageDataGenerator)
