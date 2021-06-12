@@ -103,6 +103,11 @@ Epoch 30/30
 251/251 - 15s - loss: 0.0189 - accuracy: 0.9924 - val_loss: 0.1077 - val_accuracy: 0.9800
 <tensorflow.python.keras.callbacks.History at 0x7fca17885e50>
 ```
+
+## [Tensorboard]
+![image](https://user-images.githubusercontent.com/76731781/121777411-87068980-cbaf-11eb-8ede-91a69775d902.png)
+
+
 ## [Predictions]
 ```
 No.:0  - Label:daisy     - Predicted:daisy
