@@ -22,7 +22,7 @@ For image augmentation used ImageDataGenerator class from keras (from tensorflow
 ## [Fine Tunning mobilenet]
 Lets call mobilnet model using tf.keras.applications.mobilenet.MobileNet()
 Note: make sure network connection is available.
-we will use not use the last five layers of the original model and specify the 5 units in Dense layer as we have 5 classes.
+we will not use the last five layers of the original model and specify the 5 units in Dense layer as we have 5 classes.
 
 x = model.layers[-6].output
 output = Dense(units=5, activation='softmax')(x)
@@ -131,7 +131,7 @@ No.:22 - Label:tulip     - Predicted:tulip
 No.:23 - Label:tulip     - Predicted:tulip
 No.:24 - Label:tulip     - Predicted:tulip
 ```
-## [References for futher understanding]
+## [References for further reading]
 https://arxiv.org/pdf/1704.04861.pdf
 
 https://deeplizard.com/learn/video/Zrt76AIbeh4
